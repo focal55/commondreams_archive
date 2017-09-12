@@ -1,0 +1,376 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<meta http-equiv="pragma" content="no-cache">
+<meta name="robots" content="noindex,nofollow">
+<TITLE>Paychex Online USER Authentication</TITLE>
+<!--added 11-30-00:bstocum-->
+<script src="/smlogin/leftmenu.js"> </script>
+<script src="/smlogin/privacy.js"></script>
+<script src="/smlogin/comnlib.js"></script>
+<script type="text/javascript" src="/smlogin/securesign.js"></script>
+<script language="javascript">
+<!--
+var ck_ok = 0
+var aol_warning = 0
+var graphics_on = 1
+var the_target="https://online.paychex.com/cgi-bin/menu/loginpin?TYPE=33554432&REALMOID=06-7e7662a9-a211-1010-b8f8-830be0ef0cb3&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=$$SM$$XyJZwFkVwXed5tOMuyt8QiUUViqdc3xs14nuVKcHlD0$=&TARGET=$$SM$$https$://online$.paychex$.com/cgi-bin/gls/gl_dnlf$.pgl$?usr_butt1$=854375$&report_style$=mostrct"
+var g_my_image=""
+var g_all_images = true
+var use_images = 1
+var go_wait = 0
+var allow_srg = 0
+var fix_pending = 1
+var this_domain = document.domain
+var emp_serv_url = "/menu_es/indexm_es.html"
+var internal_user = false;
+if (document.URL.indexOf("https") != 0)
+{internal_user = true;
+}window.onerror=null
+get_login_url();
+if (self == top)
+{if (the_target.length)
+{if (the_target.indexOf('attrib=chg') != -1)
+{graphics_on = 0
+if (the_target.indexOf('chgift') != -1)
+{location='/smlogin/login_email2.fcc?' + the_target
+}else
+{location='/smlogin/login_email.fcc?' + the_target
+}}}}else if (self != top)
+{go_wait = 2
+graphics_on = 0
+if (the_target.length)
+{if ((self.name == 'msg_frame') || (self.name == 'login_frame') || (self.name == 'display_area') || (self.name == 'display_display_area'))
+{go_wait = 0
+if (self.name == 'login_frame')
+{graphics_on = 1
+}}else
+{if (self.name == 'dummy_frame')
+{go_wait = 1
+}else
+{go_wait = 2
+}}}}set_this_cookie("able_to_set_cookies", "test_setting", null, -1);
+if (document.cookie.length > 25)
+{if (document.cookie.indexOf("able_to_set_cookies=") != -1)
+{set_this_cookie("able_to_set_cookies", "OK", null, 0);
+ck_ok = 1
+}if (document.cookie.indexOf("payx_login_attempt=") != -1)
+{set_this_cookie("payx_login_attempt", "OK", null, 0);
+}if ("" != "")
+{g_all_images=false;
+}}if (navigator.appVersion.charAt(0) <= "3")
+{ck_ok = 2
+}else if (navigator.userAgent.indexOf(' AOL ') != -1)
+{aol_warning = 1
+}if (ck_ok == 0)
+{document.write("<p align=left style='COLOR:#FF0000' ><big><Big>")
+document.write("Your browser must be set to accept cookies. Please see your browser's online help for instructions on accepting cookies.<br><br></big</big></p>")
+document.write("<center><small>")
+document.write('<a href="javascript:location=location">If cookies are enabled click here to try again.</a>')
+document.write("</small></center>")
+document.write("<br>&nbsp;<br>")
+document.write("<br>&nbsp;<br>")
+document.write("<br>&nbsp;<br>")
+document.write("<br>&nbsp;<br>")
+document.write("<br>&nbsp;<br>")
+document.write("<br>&nbsp;<br>")
+document.write("<br>&nbsp;<br>")
+document.write("<br>&nbsp;<br>")
+document.write("<br>&nbsp;<br>")
+document.write("<br>&nbsp;<br>")
+document.write("<br>&nbsp;<br>")
+document.write("<br>&nbsp;<br>")
+document.write("<br>&nbsp;<br>")
+document.write("<br>&nbsp;<br>")
+document.write("<br>&nbsp;<br>")
+document.write("<br>&nbsp;<br>")
+document.write("<br>&nbsp;<br>")
+document.write("<br>&nbsp;<br>")
+document.write("<br>&nbsp;<br>")
+}else if (ck_ok == 2)
+{document.write("<p align=left style= 'COLOR:#FF0000' ><big><big>")
+document.write("Your browser version does not meet our minimum requirements.<br>")
+document.write("In order to access Paychex Online services, you need to use ")
+document.write("Microsoft Internet Explorer (version 6.0 or higher, [except beta versions]). ")
+document.write("</big</big></p>")
+}if (is_cookie_set("AOL_IE_WARNING_SEEN", "true"))
+{aol_warning = 0
+}function do_the_form_image(img_name)
+{var rtn=false;
+document.PaychexStdLogin.imglogin.value= img_name;
+if (check_ok() == true)
+{document.PaychexStdLogin.action='/cgi-bin/contactus/login';
+set_this_cookie("payx_seen", "ok", null, 0);
+if (document.PaychexStdLogin.USER.value.length < 6)
+{alert("Please enter your User Name");
+document.PaychexStdLogin.VNAME.focus();
+}else if (document.PaychexStdLogin.PASSWORD.value.length < 4 )
+{alert("Please enter your Password");
+document.PaychexStdLogin.PASSWORD.focus();
+}else
+{if ( document.PaychexStdLogin.img_pref.checked )
+{set_this_cookie("pli", document.PaychexStdLogin.USER.value, null, 0);
+}else
+{var seen_period="90";
+if (seen_period == "")
+{seen_period = 10;
+}}rtn = true;
+var jlim=40;
+var jk=false;
+var jindx='';
+var jhandli=null;
+var jhandl=null;
+jhandli = document.getElementById(img_name);
+for (var j=1; j<=jlim; j++)
+{jindx = '0' + j;
+jindx = jindx.substr((jindx.length-2), 2);
+jid = "login_" + jindx + ".gif";
+if (jid != img_name)
+{jhandl = document.getElementById(jid);
+if (jhandl != null)
+{jhandl.src="/images/2pix.gif";
+jhandl.width=2;
+jhandl.height=2;
+}}}if (jhandli != null)
+{jhandli.width=200;
+jhandli.height=200;
+for (j=1; j<=500; j++)
+{jindx = '0' + j;
+}}document.PaychexStdLogin.submit()
+}}return rtn;
+}function do_the_form()
+{if (check_ok() == true)
+{document.PaychexStdLogin.action=g_login_url + '/online/smlogin/login.fcc';
+document.PaychexStdLogin.submit()
+}else if (ck_ok == 1)
+{var exp1= new RegExp();
+var exp2= new RegExp();
+var exp3= new RegExp();
+var jjj = document.PaychexStdLogin.VNAME.value
+exp1.compile("\'", "g");
+exp2.compile('\"', "g");
+exp3.compile(' ', "g");
+var jj2 = jjj.replace(exp1, '');
+jjj = jj2.replace(exp2, '');
+jj2 = jjj.replace(exp3, '');
+document.PaychexStdLogin.USER.value = jj2.toLowerCase()
+jjj = document.PaychexStdLogin.PASSWORD.value
+jj2 = jjj.replace(exp1, '');
+jjj = jj2.replace(exp2, '');
+jj2 = jjj.replace(exp3, '');
+document.PaychexStdLogin.PASSWORD.value = jj2
+if (aol_warning)
+{set_this_cookie("AOL_IE_WARNING_SEEN", "true", null, 30)
+}if (!use_images || internal_user)
+{document.PaychexStdLogin.action=g_login_url + '/online/smlogin/login.fcc';
+}return true
+}else if (ck_ok == 0)
+{alert("Your browser must be set to accept cookies.")
+}else if (ck_ok == 2)
+{alert("Your browser does not meet the minimum version requirements.")
+}return false
+}function check_ok()
+{if (fix_pending)
+{alert("Please wait for this page to finish loading.")
+return false
+}else if (ck_ok == 1)
+{var exp1= new RegExp();
+var exp2= new RegExp();
+var exp3= new RegExp();
+var jjj = document.PaychexStdLogin.VNAME.value
+exp1.compile("\'", "g");
+exp2.compile('\"', "g");
+exp3.compile(' ', "g");
+var jj2 = jjj.replace(exp1, '');
+jjj = jj2.replace(exp2, '');
+jj2 = jjj.replace(exp3, '');
+document.PaychexStdLogin.USER.value = jj2.toLowerCase()
+jjj = document.PaychexStdLogin.PASSWORD.value
+jj2 = jjj.replace(exp1, '');
+jjj = jj2.replace(exp2, '');
+jj2 = jjj.replace(exp3, '');
+document.PaychexStdLogin.PASSWORD.value = jj2
+if (aol_warning)
+{set_this_cookie("AOL_IE_WARNING_SEEN", "true", null, 30)
+}document.PaychexStdLogin.action=g_login_url + '/online/smlogin/login.fcc';
+return true
+}else if (ck_ok == 0)
+{alert("Your browser must be set to accept cookies.")
+}else if (ck_ok == 2)
+{alert("Your browser does not meet the minimum version requirements.")
+}return false
+}function fix_target()
+{fix_pending = 0
+if (ck_ok == 1)
+{if (!go_wait)
+{document.PaychexStdLogin.VNAME.focus()
+if (!use_images || internal_user)
+{document.PaychexStdLogin.PASSWORD.onkeypress = do_auto_submit
+}else if (use_images && (g_my_image != "") && !g_all_images)
+{document.PaychexStdLogin.PASSWORD.onkeypress = do_auto_submit
+}}else if (go_wait == 2)
+{delay_TID = setTimeout("make_top()", 400)
+}else
+{delay_TID = setTimeout("test_login_status()", 4000)
+}}}function make_top()
+{top.location=location
+}function do_auto_submit(e)
+{var navjunk = (navigator.appName == "Netscape") ? 1 : 0
+if (navjunk == 1)
+{if (e.which == 13)
+{if (g_my_image != "")
+{do_the_form_image(g_my_image);
+}else
+{do_the_form()
+}return false
+}else
+{return true
+}}else
+{return true
+}}function test_login_status()
+{var do_target = 0
+if (document.cookie.length > 25)
+{indx1 = document.cookie.indexOf("SMSESSION=")
+if (indx1 != -1)
+{indx2 = document.cookie.indexOf(";", indx1)
+if (indx2 != -1)
+{if (indx2 > (indx1 + 100))
+{do_target = 1
+}}else
+{indx1 += 10
+if (document.cookie.charAt(indx1) != ' ')
+{do_target = 1
+}}}}if (do_target)
+{this.location=the_target
+}else
+{delay_TID = setTimeout("test_login_status()", 4000)
+}}function not_yet(mode)
+{alert("Not available at this time." + String.fromCharCode(10,10) + "Please try again in the near future.")
+return false
+}function new_submit(the_targetx)
+{var the_cell = window.document.getElementById("target");
+if (the_cell != null)
+the_cell.value=the_targetx
+if (check_ok() == true)
+{document.PaychexStdLogin.action=g_login_url + '/online/smlogin/login.fcc';
+document.PaychexStdLogin.submit()
+}}function what_image()
+{var msg = "<span style='font: 12px arial;'><br />If this is the computer you normally use, your sign on image can be saved to this computer.";
+msg += "<br />If the image does not match your previously saved image, make sure you are at https://online.paychex.com/.";
+msg += "<br />A saved image will not match if you have failed to login, have cleared your cookies or another user has saved their sign on preference to this computer.";
+msg += "<br />If this is the first time you are signing on, the image you select will become your sign on image.";
+msg += "<br />";
+msg += "<br />You will be able to change your image after accessing your account.";
+msg += "<br /><a href='javascript:void(0)' onclick='what_image()' >close</a></span>";
+var qarea = document.getElementById("secinfo");
+if (qarea != null)
+{var hqtext =  ""
+if ( qarea.innerHTML == "")
+{hqtext =  "<table bgcolor=#ffffff border=2 >"
+hqtext += "<tr><td>" + msg
+hqtext += "</td></tr>"
+hqtext += "</table>"
+}qarea.style.position = "absolute";
+qarea.style.top="180px";
+qarea.innerHTML = hqtext
+}return false
+}function new_submit(the_targetx)
+{var the_cell = window.document.getElementById("target");
+if (the_cell != null)
+the_cell.value=the_targetx
+if (check_ok() == true)
+{document.PaychexStdLogin.action=g_login_url + '/online/smlogin/login.fcc';
+document.PaychexStdLogin.submit()
+}}//-->
+</script>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" LINK="#0000FF" VLINK="#0000FF" onload="fix_target()" style="font: 12px arial; margin: 0; padding: 0;" >
+<noscript>
+<p align="left"><font color="#3369FF" size="4"><b>We detected that your
+browser's JavaScript is disabled.</b> &nbsp;<br>
+To access Paychex Online, you need to use Microsoft<sup>&reg;</sup>  Internet
+Explorer 6.0 or higher, [except beta versions] with JavaScript enabled.*</font>
+</p>
+<p align="left"><font color="#3369FF" size="4">JavaScript is
+commonly disabled in Internet Explorer when its security level is set to high.
+To lower this setting, refer to the browser's &quot;Internet Options&quot; from
+the &quot;Tools&quot; menu and select the &quot;Security&quot; tab.&nbsp;</font>
+</p>
+<p align="left"><font color="#3369FF" size="4"><b>Note: </b>
+If you are using firewall software, it may override your browser's settings. Refer to the application's help file.</font>
+</p>
+<p align="left"><font color="#3369FF" size="4">For further assistance, please consult your browser's help file for instructions or contact your system administrator.</font></p>
+<font color="#3369FF" size="4">If JavaScript is already set within the required browsers, please try to <a href="javascript:top.location=location"> access
+the site</a> again.</font>
+<b>
+<p><font color="#3369FF" size="2">* Paychex does not support beta versions of
+Microsoft Internet Explorer.</font></p>
+</noscript>
+<FORM NAME="PaychexStdLogin" METHOD="POST" onSubmit="return check_ok()" autocomplete=off >
+<script language="JavaScript">
+<!--
+if (graphics_on)
+{document.write('<table width=100% border=0 cellspacing=0 cellpadding=0><tr align=left>');
+document.write('<td valign=top colspan="3">');
+draw_banner();
+document.write('</td></tr><tr align=left><td valign=top width=178>')
+if(!internal_user)
+draw_leftmenu("loggin_include");
+else
+draw_leftmenu();
+document.write('</td><td width=100 align=center valign=top></td>')
+document.write('<td valign=top>')
+if (aol_warning)
+{draw_aolwarning();
+}}else
+{document.write('&nbsp;<br>&nbsp;<br>&nbsp;<br>')
+}if (!go_wait)
+{document.write('<TABLE BORDER="0" CELLSPACING="0" >')
+document.write('<TR><TD ALIGN="left" VALIGN="CENTER" colspan=2><br /><br /><span style="font: bold 16px arial;">Please&nbsp;sign&nbsp;on:</span></TD></TR>')
+if ("" != "")
+{document.write('<tr><td colspan=2 style="font: 14px arial; color: #ff0000;" >Sign on attempt not successful.</td></tr>')
+}document.write('<TR><TD VALIGN="CENTER" WIDTH="40%"> <DIV ALIGN="left" style="font: 14px arial;">User&nbsp;Name:</DIV></TD>')
+document.write('<TD VALIGN="CENTER" WIDTH="58%"> &nbsp;<INPUT TYPE="TEXT" NAME="VNAME" size="20"  ></TD></TR>')
+document.write('<TR><TD VALIGN="CENTER" WIDTH="40%"> <DIV ALIGN="left" style="font: 14px arial;">Password:</DIV></TD>')
+document.write('<TD VALIGN="CENTER" WIDTH="58%"> &nbsp;<INPUT TYPE="PASSWORD" NAME="PASSWORD" size="20"  ></TD></TR>')
+document.write('<tr><td colspan=2>&nbsp;</td></tr>')
+if (internal_user)
+{document.write('<TR><TD VALIGN="CENTER" align=center COLSPAN="2"> <INPUT TYPE="submit" NAME="online" VALUE="&nbsp;&nbsp;&nbsp;&nbsp;Online&nbsp;&nbsp;&nbsp;&nbsp;">')
+document.write('&nbsp;&nbsp;<INPUT TYPE="button" NAME="empservices" VALUE="Employee Services" onClick="new_submit(emp_serv_url)"></TD></TR>')
+document.write('<tr><td colspan=2>&nbsp;</td></tr>')
+}else
+{if (!use_images)
+{document.write('<TR><TD VALIGN="CENTER" align="center" COLSPAN="2"><INPUT TYPE="submit" NAME="Signon" VALUE="Sign On"></TD></TR>')
+}else
+{gen_image_table(2, g_all_images);
+}}if (graphics_on && !internal_user)
+{if (allow_srg)
+{document.write('<tr><td colspan=2>&nbsp;</td></tr>')
+}}document.write('</TABLE></CENTER>')
+if (!graphics_on)
+{document.write('<CENTER><br>')
+copyright_link(1)
+privacy_link(1)
+}}else
+{document.write("&nbsp;")
+}if (graphics_on)
+{document.write('</td></tr></table>')
+document.write('</td></tr></table>')
+}else if (!go_wait)
+{}//-->
+</script>
+<input type="hidden" name="SMENC" value="ISO-8859-1">
+<input type="hidden" name="SMLOCALE" value="US-EN">
+<input type="hidden" name="USER" >
+<input type="hidden" name="smretries" values=0 >
+<input type="hidden" name="imglogin" value="" >
+<input type="hidden" name="target" id="target" value="https://online.paychex.com/cgi-bin/menu/loginpin?TYPE=33554432&REALMOID=06-7e7662a9-a211-1010-b8f8-830be0ef0cb3&GUID=&SMAUTHREASON=0&METHOD=GET&SMAGENTNAME=$$SM$$XyJZwFkVwXed5tOMuyt8QiUUViqdc3xs14nuVKcHlD0$=&TARGET=$$SM$$https$://online$.paychex$.com/cgi-bin/gls/gl_dnlf$.pgl$?usr_butt1$=854375$&report_style$=mostrct">
+<input type="hidden" name="smquerydata" value="">
+<input type="hidden" name="smauthreason" value="0">
+<input type="hidden" name="smagentname" value="XyJZwFkVwXed5tOMuyt8QiUUViqdc3xs14nuVKcHlD0=">
+<input type="hidden" name="type" value="33554433">
+<input type="hidden" name="realmoid" value="06-5f284cf0-a0c2-1010-aafa-830be0ef0cb3">
+<input type="hidden" name="postpreservationdata" value="">
+</FORM>
+</BODY>
+</HTML>

@@ -1,0 +1,13 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<div align="center"><img src="../../../../Program%20Files/Apache%20Group/Apache2/htdocs/images/printlogo.gif">
+</div>
+<p>
+<!--#include virtual="/scriptfiles/$QUERY_STRING_UNESCAPED" -->
+</p>
+</body>
+</html>

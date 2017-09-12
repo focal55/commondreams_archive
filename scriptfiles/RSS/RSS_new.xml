@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+ <rss version="0.91">
+
+ <channel>
+ <title>Common Dreams</title>
+ <link>http://www.commondreams.org</link>
+ <description>Breaking News and Views for the Progressive Community</description>
+ <language>en-us</language>
+
+ <image>
+ <title>Common Dreams</title>
+ <url>http://www.commondreams.org/logo3.gif</url>
+ <link>http://www.commondreams.org</link>
+ <width>144</width>
+ <height>82</height>
+</image> 
+
+
+ <item>
+ <title>1945 Tokyo Firebombing Left Legacy of Terror, Pain </title>
+ <link>http://www.commondreams.org/headlines05/0310-08.htm</link>
+ <description>For decades, Teruo Kanoh never revealed the terror locked in his heart the night in 1945 when American bombs turned Tokyo into a raging fireball. Then, three years ago, he slowly began releasing his demons in oil and watercolor. </description>
+ </item>
+ 
+ <item>
+ <title>U.S. Says It Has Withdrawn From World Judicial Body </title>
+<link>http://www.commondreams.org/headlines05/0310-04.htm</link>
+ <description>Prompted by an international tribunal's decision last year ordering new hearings for 51 Mexicans on death rows in the United States, the State Department said yesterday that the United States had withdrawn from the protocol that gave the tribunal jurisdiction to hear such disputes. </description>
+ </item>
+
+ <item>
+ <title>Ex-Marine Says Public Version of Saddam Capture Fiction </title>
+ <link>http://www.commondreams.org/headlines05/0310-06.htm</link>
+ <description>A former U.S. Marine who participated in capturing ousted Iraqi President Saddam Hussein said the public version of his capture was fabricated.  </description></item> 
+
+<item>
+ <title>Personal Accounts Could Hasten Social Security Shortfall, GAO Finds </title>
+<link>http://www.commondreams.org/headlines05/0310-02.htm</link>
+ <description>Private investment accounts such as those President Bush endorses not only will not save Social Security, but they also could accelerate the retirement system's financial problems, a nonpartisan government official told Congress Wednesday. </description>
+ </item>
+
+ 
+ </channel>
+ </rss>

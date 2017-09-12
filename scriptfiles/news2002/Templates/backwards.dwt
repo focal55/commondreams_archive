@@ -1,0 +1,201 @@
+<html>
+<head>
+<!-- #BeginEditable "doctitle" -->
+<title>Untitled Document</title>
+<!-- #EndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF">
+<div align="center">
+  
+<center>
+<hr width="600" noshade color="#384880" size="1" align="center">
+<table border="0" width="600" cellspacing="0" cellpadding="0" align="center">
+<tr> 
+<td align="center" width="225" valign="bottom"> 
+<p align="center"><font face="Arial, Helvetica, sans-serif" size="3" color="#666666"> 
+<script language="JavaScript">
+var now=new Date();
+var monthName=now.getMonth()+1;
+var dayName=now.getDay()+1;
+var dayNumber = now.getDate();
+if(dayName==1)Day="Sunday";
+if(dayName==2)Day="Monday";
+if(dayName==3)Day="Tuesday";
+if(dayName==4)Day="Wednesday";
+if(dayName==5)Day="Thursday";
+if(dayName==6)Day="Friday";
+if(dayName==7)Day="Saturday";
+if(monthName==1)Month="January";
+if(monthName==2)Month="February";
+if(monthName==3)Month="March";
+if(monthName==4)Month="April";
+if(monthName==5)Month="May";
+if(monthName==6)Month="June";
+if(monthName==7)Month="July";
+if(monthName==8)Month="August";
+if(monthName==9)Month="September";
+if(monthName==10)Month="October";
+if(monthName==11)Month="November";
+if(monthName==12)Month="December";
+document.open();
+document.write( Day + "<br>"
+ + Month + " " + dayNumber);
+</script>
+, 2000</font> 
+</td>
+<td align="center" width="376"> 
+<p align="left"><img border="0" src="../images/logo499.gif" width="350" height="55" alt="NewsWire" align="bottom"> 
+</td>
+</tr>
+<tr> 
+<td align="center" width="225" valign="bottom"> 
+<p align="center"><font color="#384880" size="1" face="Arial, Helvetica, sans-serif"> <a href="../index.html"> NewsCenter</a></font><font face="Arial, Helvetica, sans-serif" size="1"> | </font><font face="Arial, Helvetica, sans-serif" size="1" color="#384880"><a href="../newswire.htm">NewsWire</a>
+</font>
+</td>
+<td align="center" width="376" valign="top"> 
+<p align="left"><font color="#006600" size="2" face="Arial, Helvetica, sans-serif"> 
+Breaking news &amp; views for progressive-thinking Americans...</font> 
+</td>
+</tr>
+</table>
+<hr width="600" noshade color="#384880" size="1" align="center">
+<table border="0" cellpadding="3" cellspacing="0" width="600">
+<tr> 
+<td valign="top" align="center" width="600" colspan="5" bgcolor="#E8E8E8"> 
+<div align="right"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>&nbsp;&nbsp;<a href="../index.html">NewsCenter</a> 
+&gt; </b></font><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+Going Backwards&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></b></div>
+</td>
+</tr>
+<tr> 
+<td valign="top" align="left" width="15" rowspan="8" colspan="2"> <font face="Arial, Helvetica, sans-serif" size="2"><a href="http://www.commondreams.org/wirearchive.htm">
+</a></font> 
+<p align="left"><font face="Arial, Helvetica, sans-serif" size="2"><small>
+</small></font></p>
+<p align="left">&nbsp;</p>
+<p>
+</td>
+<td valign="top" align="left" bgcolor="#FFFFFF" width="570">&nbsp;</td>
+<td valign="top" align="left" bgcolor="#FFFFFF" width="15" rowspan="8" colspan="2">&nbsp; </td>
+</tr>
+<tr> 
+<td valign="top" align="left" width="570" bgcolor="#FFFFFF"><!-- #BeginEditable "Contact" -->
+
+<div align="center"><font face="Arial, Helvetica, sans-serif" size="2"><i>Published &nbsp;</i></font></div>
+<!-- #EndEditable --></td>
+</tr>
+<tr> 
+<td valign="top" align="left" bgcolor="#FFFFFF" width="570"></td>
+</tr>
+<tr> 
+<td valign="top" align="left" bgcolor="#FFFFFF" width="570">
+<font size="5" face="Arial, Helvetica, sans-serif"><b><!-- #BeginEditable "Header" -->
+<div align="center">Backwards&nbsp;</div>
+<!-- #EndEditable --></b></font></td>
+</tr>
+<tr>
+<td valign="top" align="left" bgcolor="#FFFFFF" width="570">
+<div align="center"><font face="Arial, Helvetica, sans-serif" size="3"><!-- #BeginEditable "author" -->by  <!-- #EndEditable --></font></div>
+</td>
+</tr>
+<tr> 
+<td valign="top" align="left" bgcolor="#FFFFFF" width="570">&nbsp; 
+</td>
+</tr>
+<tr> 
+<td valign="top" align="left" bgcolor="#FFFFFF" width="570">
+<div align="left"><font face="Arial, Helvetica, sans-serif" size="2"><!-- #BeginEditable "Body" -->
+<p>&nbsp;
+<p align="center">###</p>
+<!-- #EndEditable --></font></div>
+</td>
+</tr>
+<tr> 
+<td valign="top" align="left" bgcolor="#FFFFFF" width="570"><font face="Arial" size="2" color="#000000">&nbsp; 
+</font></td>
+</tr>
+<tr bgcolor="#F4F4E1"> 
+<td valign="top" align="center" width="600" colspan="5" height="15">
+
+<form method="GET" action="http://intra.whatUseek.com/query.go">
+<div align="left">
+<table border="2" cellpadding="5" cellspacing="0" width="325" align="center" bgcolor="#CCCC66">
+<tr>
+<td>
+<p align="center"><font face="Arial, Helvetica, sans-serif"><b>Search NewsCenter/NewsWire</b><br>
+</font><br>
+<input type="text" name="query"
+ size="30">
+<input type="submit" value="Search" 
+ name="B1">
+<br>
+<input type="radio" value="069b06e1699483a9"
+ checked name="crid">
+ <font face="Arial, Helvetica, sans-serif" size="3" color="#006600"><b>NewsCenter</b></font>  
+<input type="radio" 
+ name="crid" value="web">
+<font face="Arial, Helvetica, sans-serif">The 
+ Web</font><font face="Verdana,Arial"><br>
+</font>
+</td>
+</tr>
+</table>
+<img src="http://intra.whatUseek.com/htmlbox.go?crid=069b06e1699483a9" 
+width="1" height="1" border="0"></div>
+</form>
+<p align="center"><small><a href="../index.html"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>Common Dreams NewsCenter</b></font></a><font face="Verdana, Arial, Helvetica, sans-serif" size="2">&nbsp;is a non-profit news service<br>
+ providing breaking news and views for progressive-thinking 
+Americans.</font></small> 
+</p>
+<p align="center"><font face="Arial, Helvetica, sans-serif" size="2"><small><br>
+</small></font></p>
+<table width="75%" border="0">
+<tr>
+<td><font face="Arial, Helvetica, sans-serif" size="1">FAIR USE NOTICE: This site contains copyrighted material the use of which has not always been specifically authorized by the copyright owner. We are making such material available in our efforts to advance understanding of environmental, political, human rights, economic, democracy, scientific, and social justice issues, etc. We believe this constitutes a 'fair use' of any such copyrighted material as provided for in section 107 of the US Copyright Law.<br>
+<br>
+In accordance with Title 17 U.S.C. Section 107, the material on this site is distributed without profit to those who have expressed a prior interest in receiving the included information for research and educational purposes. For more information go to: <a href="http://www.law.cornell.edu/uscode/17/107.shtml">http://www.law.cornell.edu/uscode/17/107.shtml</a><br>
+<br>
+If you wish to use copyrighted material from this site for purposes of your own that go beyond 'fair use', you must obtain permission from the copyright owner.<br>
+<br>
+</font>
+</td>
+</tr>
+</table>
+<p>
+</td>
+</tr>
+</table>
+</center>
+</div>
+<p align="center"><font face="Arial, Helvetica, sans-serif" size="3"><b><a href="newswire.htm"><br>
+</a></b></font></p>
+<p align="center"><font face="Arial, Helvetica, sans-serif" size="3"><b><a href="newswire.htm"><br>
+
+</a><a href="../index.html">NewsCenter</a> 
+| <a href="../newswire.htm">NewsWire</a><br>
+<a href="../contactingus.htm"><font size="2">Contacting Us</font></a></b></font><br>
+<br>
+<i><font size="2" face="Arial, Helvetica, sans-serif">Tell Us What You Think.<br>
+</font></i><font size="1" face="Arial"><a href="mailto:editor@newscenter.org"><font color="#0000FF" face="Arial, Helvetica, sans-serif">editor@newscenter.org</font> 
+</a><br>
+</font> 
+</p>
+<p align="center">
+<font face="Arial, Helvetica, sans-serif" size="1">© Copyrighted 1997-2000
+ 
+All Rights Reserved. Common Dreams.<br>
+</font></p>
+<p align="center"><font face="Arial, Helvetica, sans-serif" size="1">Designed to be viewed with Internet Explorer/Netscape 4.0 or higher<br>
+800 x 600
+screen resolution</font></p>
+<p>
+
+
+
+
+
+
+</body>
+</html>

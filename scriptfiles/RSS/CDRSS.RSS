@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+ <rss version="0.91">
+
+ <channel>
+ <title>Common Dreams</title>
+ <link>http://www.commondreams.org</link>
+ <description>Breaking News and Views for the Progressive Community</description>
+ <language>en-us</language>
+
+ <image>
+ <title>Common Dreams</title>
+ <url>http://www.commondreams.org/images/frontlogo2.gif</url>
+<link>http://www.commondreams.org</link>
+ <width>156</width>
+ <height>82</height>
+ </image>
+
+<item>
+ <title> Veteran of Dirty Wars Wins Lead US Spy Role</title>
+<link>http://www.commondreams.org/views05/0218-03.htm</link>
+ <description>Written off by Many After His Role in Central America, John Negroponte's Revived Career Hits a New High</description>
+ </item>
+
+ <item>
+ <title> US Army Destroyed Mock Execution Pictures</title>
+ <link>http://www.commondreams.org/headlines05/0218-05.htm</link>
+ <description>Pictures of U.S. soldiers in Afghanistan posing with hooded and bound detainees during mock executions were destroyed after the Abu Ghraib prison scandal in Iraq to avoid another public outrage, Army documents released Friday by the American Civil Liberties Union show.</description>
+ </item>
+ </channel>
+ </rss>

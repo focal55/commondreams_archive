@@ -1,0 +1,14 @@
+To: finance@commondreams.org
+From: [lastname] [firstname] 
+Subject: EContributor
+
+First Name:[firstname]
+Last Name:[lastname]
+Address1:[address1]
+Address1:[address2]
+City:[city]
+State:[state]
+Zip:[zip]
+Country:[country]
+Telephone:[telephone]
+E-Mail:[email]

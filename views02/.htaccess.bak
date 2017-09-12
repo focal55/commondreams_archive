@@ -1,0 +1,7 @@
+RewriteEngine On
+
+RewriteBase /
+
+RewriteRule "(^views.htm$|.*?200..htm)" "/scriptfiles/%{REQUEST_URI}" [L]
+
+RewriteRule "(.*?.htm)" "views.shtml?%{REQUEST_URI}" [L]

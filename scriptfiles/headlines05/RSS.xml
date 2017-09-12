@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+ <rss version="0.91">
+
+ <channel>
+ <title>Common Dreams</title>
+ <link>http://www.commondreams.org</link>
+ <description>Breaking News and Views for the Progressive Community</description>
+ <language>en-us</language>
+
+ <image>
+ <title>Common Dreams</title>
+ <url>http://www.commondreams.org/logo3.gif</url>
+<link>http://www.commondreams.org</link>
+ <width>144</width>
+ <height>82</height>
+ </image>
+
+<item>
+ <title> New Front on the War on Terror</title>
+<link>http://www.commondreams.org/headlines05/0220-02.htm</link>
+ <description>With controversial diplomat John Negroponte installed as the all-powerful Director of National Intelligence, is the US about to switch from invasions to covert operations and dirty tricks? The assassination of the former Lebanese PM has aroused suspicions</description>
+ </item>
+
+ <item>
+ <title> Knocking on the Nuclear Door</title>
+ <link>http://www.commondreams.org/headlines05/0220-01.htm</link>
+ <description>Since the war on terror began, the headlines and billion-dollar budget allocations have focused on the missile-defence system and ever-smarter conventional bombs. But many security analysts say the Bush administration is quietly planning - in violation of the global non-proliferation treaty, which was ratified by the U.S. - to create and test new nuclear weapons. </description>
+ </item>
+ 
+ <item>
+ <title>Opponents of 'Clear Skies' Bill Examined </title>
+<link>http://www.commondreams.org/headlines05/0219-02.htm</link>
+ <description>The GOP sponsor of legislation championed by Bush asks two groups to turn over financial records. One official calls it intimidation. </description>
+ </item>
+
+ <item>
+ <title>The Final Proof: Global Warming is a Man-Made Disaster </title>
+ <link>http://www.commondreams.org/headlines05/0219-01.htm</link>
+ <description>Scientists have found the first unequivocal link between man-made greenhouse gases and a dramatic heating of the Earth's oceans. The researchers - many funded by the US government - have seen what they describe as a "stunning" correlation between a rise in ocean temperature over the past 40 years and pollution of the atmosphere. </description>
+ </item>
+ 
+
+ </channel>
+ </rss>
