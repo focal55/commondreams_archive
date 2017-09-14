@@ -52,12 +52,12 @@ function scrape_html($file) {
   <meta name="MobileOptimized" content="width" />
   <meta http-equiv="cleartype" content="on" />
   <link rel="profile" href="http://www.w3.org/1999/xhtml/vocab" />
-  <link rel="apple-touch-icon-precomposed" href="/sites/all/themes/omega_dreams/images/apple-touch/favicon-150x150.png" sizes="150x150" />
-  <link rel="apple-touch-icon-precomposed" href="/sites/all/themes/omega_dreams/images/apple-touch/favicon-120x120.png" sizes="120x120" />
-  <link rel="shortcut icon" href="/sites/all/themes/omega_dreams/favicon.ico" type="image/vnd.microsoft.icon" />
-  <link rel="apple-touch-icon-precomposed" href="/sites/all/themes/omega_dreams/images/apple-touch/favicon.png" />
+  <link rel="apple-touch-icon-precomposed" href="https://www.commondreams.org/sites/all/themes/omega_dreams/images/apple-touch/favicon-150x150.png" sizes="150x150" />
+  <link rel="apple-touch-icon-precomposed" href="https://www.commondreams.org/sites/all/themes/omega_dreams/images/apple-touch/favicon-120x120.png" sizes="120x120" />
+  <link rel="shortcut icon" href="https://www.commondreams.org/sites/all/themes/omega_dreams/favicon.ico" type="image/vnd.microsoft.icon" />
+  <link rel="apple-touch-icon-precomposed" href="https://www.commondreams.org/sites/all/themes/omega_dreams/images/apple-touch/favicon.png" />
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" />
-  <link rel="apple-touch-icon-precomposed" href="/sites/all/themes/omega_dreams/images/apple-touch/favicon-76x76.png" sizes="76x76" />
+  <link rel="apple-touch-icon-precomposed" href="https://www.commondreams.org/sites/all/themes/omega_dreams/images/apple-touch/favicon-76x76.png" sizes="76x76" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
 
   <link rel="canonical" href="/" />
@@ -79,29 +79,29 @@ function scrape_html($file) {
   <title>Archive | Common Dreams</title>
 
   <style>
-    @import url("/sites/all/themes/omega/omega/css/modules/system/system.base.css?ovid13");
-    @import url("/sites/all/themes/omega/omega/css/modules/system/system.menus.theme.css?ovid13");
-    @import url("/sites/all/themes/omega/omega/css/modules/system/system.messages.theme.css?ovid13");
-    @import url("/sites/all/themes/omega/omega/css/modules/system/system.theme.css?ovid13");
-    @import url("/modules/node/node.css?ovid13");
-    @import url("/sites/all/themes/omega/omega/css/modules/field/field.theme.css?ovid13");
-    @import url("/sites/all/themes/omega/omega/css/modules/search/search.theme.css?ovid13");
-    @import url("/sites/all/themes/omega/omega/css/modules/user/user.base.css?ovid13");
-    @import url("/sites/all/themes/omega/omega/css/modules/user/user.theme.css?ovid13");
+    @import url("https://www.commondreams.org/sites/all/themes/omega/omega/css/modules/system/system.base.css?ovid13");
+    @import url("https://www.commondreams.org/sites/all/themes/omega/omega/css/modules/system/system.menus.theme.css?ovid13");
+    @import url("https://www.commondreams.org/sites/all/themes/omega/omega/css/modules/system/system.messages.theme.css?ovid13");
+    @import url("https://www.commondreams.org/sites/all/themes/omega/omega/css/modules/system/system.theme.css?ovid13");
+    @import url("https://www.commondreams.org/modules/node/node.css?ovid13");
+    @import url("https://www.commondreams.org/sites/all/themes/omega/omega/css/modules/field/field.theme.css?ovid13");
+    @import url("https://www.commondreams.org/sites/all/themes/omega/omega/css/modules/search/search.theme.css?ovid13");
+    @import url("https://www.commondreams.org/sites/all/themes/omega/omega/css/modules/user/user.base.css?ovid13");
+    @import url("https://www.commondreams.org/sites/all/themes/omega/omega/css/modules/user/user.theme.css?ovid13");
   </style>
   <style>
-    @import url("/sites/all/themes/omega_dreams/css/omega-dreams.normalize.css?ovid13");
-    @import url("/sites/all/themes/omega_dreams/css/omega-dreams.hacks.css?ovid13");
-    @import url("/sites/all/themes/omega_dreams/css/omega-dreams.styles.css?ovid13");
+    @import url("https://www.commondreams.org/sites/all/themes/omega_dreams/css/omega-dreams.normalize.css?ovid13");
+    @import url("https://www.commondreams.org/sites/all/themes/omega_dreams/css/omega-dreams.hacks.css?ovid13");
+    @import url("https://www.commondreams.org/sites/all/themes/omega_dreams/css/omega-dreams.styles.css?ovid13");
   </style>
 
   <!--[if lte IE 8]>
   <style>
-    @import url("/sites/all/themes/omega_dreams/css/omega-dreams.no-query.css?ovid13");
+    @import url("https://www.commondreams.org/sites/all/themes/omega_dreams/css/omega-dreams.no-query.css?ovid13");
   </style>
   <![endif]-->
   <style>
-    @import url("/sites/all/themes/omega_dreams/css/layouts/cdreams/cdreams.layout.css?ovid13");
+    @import url("https://www.commondreams.org/sites/all/themes/omega_dreams/css/layouts/cdreams/cdreams.layout.css?ovid13");
   </style>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
   <script>window.jQuery || document.write("<script src='/sites/all/modules/jquery_update/replace/jquery/1.7/jquery.min.js'>\x3C/script>")</script>
