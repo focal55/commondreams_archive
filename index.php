@@ -148,7 +148,7 @@ function scrape_html($file) {
   <div id="header-container">
     <header class="l-header" role="banner">
       <div class="l-branding">
-        <a href="/" title="Home" rel="home" class="site-logo"><img src="/sites/default/files/cd_tagline_logo_blue.png" alt="Home" /></a>
+        <a href="/" title="Home" rel="home" class="site-logo"><img src="https://www.commondreams.org/sites/default/files/cd_tagline_logo_blue.png" alt="Home" /></a>
       </div>
 
       <div class="l-region l-region--header">
@@ -278,7 +278,7 @@ function scrape_html($file) {
       <div id="block-block-3" class="block block--block block--block-3">
         <div class="block__content">
           <table style="margin-top: 10px;" border="0"><tbody><tr><td style="padding-right: 20px;">
-                <div itemscope="" itemtype="http://schema.org/Organization"><a itemprop="url" href=""><img itemprop="logo" src="/sites/default/files/cd_stacked_white_600.png" alt="Common Dreams News and Views Published in Maine Since 1997" width="200" height="50" class="media-element file-default" data-file_info="%7B%22fid%22:%223%22,%22view_mode%22:%22default%22,%22fields%22:%7B%22format%22:%22default%22,%22field_file_image_alt_text%5Bund%5D%5B0%5D%5Bvalue%5D%22:%22%22,%22field_file_image_title_text%5Bund%5D%5B0%5D%5Bvalue%5D%22:%22%22%7D,%22type%22:%22media%22%7D" /></a>
+                <div itemscope="" itemtype="http://schema.org/Organization"><a itemprop="url" href=""><img itemprop="logo" src="https://www.commondreams.org/sites/default/files/cd_stacked_white_600.png" alt="Common Dreams News and Views Published in Maine Since 1997" width="200" height="50" class="media-element file-default" data-file_info="%7B%22fid%22:%223%22,%22view_mode%22:%22default%22,%22fields%22:%7B%22format%22:%22default%22,%22field_file_image_alt_text%5Bund%5D%5B0%5D%5Bvalue%5D%22:%22%22,%22field_file_image_title_text%5Bund%5D%5B0%5D%5Bvalue%5D%22:%22%22%7D,%22type%22:%22media%22%7D" /></a>
                   <!--MEDIA-WRAPPER-END-1--></div>
               </td>
               <td>
