@@ -9,9 +9,10 @@ foreach (new RecursiveIteratorIterator($di) as $filename => $file) {
   }
 }
 $count = count($files);
-$pages = ceil($count / 100);
-$current_page = isset($_GET['page']) ? $_GET['page'] : 0;
-$page_offset = $current_page * 50;
+$items_per_page = 25;
+$pages = ceil($count / $items_per_page);
+$current_page = isset($_GET['page']) ? $_GET['page'] : 1;
+$page_offset = $current_page * $items_per_page;
 
 
 // Scraping.
@@ -80,7 +81,8 @@ function scrape_html($file) {
           sizes="76x76"/>
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"/>
-<meta name="description" content="Common Dreams, publishing since 1997, archived content not yet brought into our current website" />
+    <meta name="description"
+          content="Common Dreams, publishing since 1997, archived content not yet brought into our current website"/>
     <link rel="canonical" href="https://archive.commondreams.org"/>
     <link rel="shortlink" href="https://archive.commondreams.org"/>
 
@@ -135,6 +137,10 @@ function scrape_html($file) {
             max-width: 700px;
             margin: 0 auto;
         }
+        .panel-display--grid-3 {
+            clear: both;
+            overflow: hidden;
+        }
         #google-search .gsc-control-cse {
             padding: 1em 0;
             width: auto;
@@ -173,7 +179,7 @@ function scrape_html($file) {
         }
         .pager {
             margin-top: 15px;
-            padding-top: 15px;
+            padding: 15px 0 30px;
             border-top: 1px solid #ccc;
         }
         .pager ul {
@@ -189,15 +195,19 @@ function scrape_html($file) {
         }
     </style>
     <!-- Global Site Tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-19360686-4"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments)};
-  gtag('js', new Date());
+    <script async
+            src="https://www.googletagmanager.com/gtag/js?id=UA-19360686-4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-19360686-4');
-</script>
-<!-- END Global Site Tag (gtag.js) - Google Analytics -->
+      function gtag() {
+        dataLayer.push(arguments)
+      };
+      gtag('js', new Date());
+
+      gtag('config', 'UA-19360686-4');
+    </script>
+    <!-- END Global Site Tag (gtag.js) - Google Analytics -->
 </head>
 <body class="html not-front not-logged-in page-node page-node- page-node-107342 node-type-page section-search404">
 <a href="#main-content" class="element-invisible element-focusable">Skip to main
@@ -206,7 +216,9 @@ function scrape_html($file) {
     <div id="header-container">
         <header class="l-header" role="banner">
             <div class="l-branding">
-                <a href="https://www.commondreams.org" title="Common Dreams Website" rel="home" class="site-logo"><img
+                <a href="https://www.commondreams.org"
+                   title="Common Dreams Website" rel="home"
+                   class="site-logo"><img
                             src="https://www.commondreams.org/sites/default/files/cd_tagline_logo_blue.png"
                             alt="Home"/></a>
             </div>
@@ -223,22 +235,6 @@ function scrape_html($file) {
                                     title="">DONATE</a></li>
                     </ul>
                 </nav>
-                <div id="block-search-form" role="search"
-                     class="block block--search block--search-form">
-                    <div class="block__content">
-                        <!--            <form class="search-block-form" action="/asd" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">-->
-                        <!--                  <h2 class="element-invisible">Search form</h2>-->
-                        <!--                  <div class="form-item form-type-textfield form-item-search-block-form">-->
-                        <!--                    <label class="element-invisible" for="edit-search-block-form--2">Search </label>-->
-                        <!--                    <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />-->
-                        <!--                  </div>-->
-                        <!--                  <div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-raV6wnRGDDyldbw5Cv-8O7N9TEvCRfrJhIptXNyKggs" />-->
-                        <!--                  <input type="hidden" name="form_id" value="search_block_form" />-->
-                        <!--                </div>-->
-                        <!--              </div>-->
-                        <!--            </form>  -->
-                    </div>
-                </div>
             </div>
         </header>
     </div>
@@ -253,30 +249,39 @@ function scrape_html($file) {
             <nav id="block-system-main-menu" role="navigation"
                  class="block block--system block--menu block--system-main-menu">
                 <ul class="menu">
-                    <li class="first leaf"><a href="https:///wwww.commondreams.org">Home</a></li>
-                    <li class="leaf"><a href="https://www.commondreams.org/world"
-                                        title="International news and editorials published by Common Dreams, an independent media outlet based in Portland Maine since 1997">World</a>
+                    <li class="first leaf"><a
+                                href="https:///wwww.commondreams.org">Home</a>
                     </li>
-                    <li class="leaf"><a href="https://www.commondreams.org/war-peace"
-                                        title="War &amp;amp; Peace news and editorials published by Common Dreams, an independent media outlet based in Portland Maine since 1997">War
+                    <li class="leaf"><a
+                                href="https://www.commondreams.org/world"
+                                title="International news and editorials published by Common Dreams, an independent media outlet based in Portland Maine since 1997">World</a>
+                    </li>
+                    <li class="leaf"><a
+                                href="https://www.commondreams.org/war-peace"
+                                title="War &amp;amp; Peace news and editorials published by Common Dreams, an independent media outlet based in Portland Maine since 1997">War
                             &amp; Peace</a></li>
-                    <li class="leaf"><a href="https://www.commondreams.org/economy"
-                                        title="News and editorials related to the economy published by Common Dreams, an independent media outlet based in Portland Maine since 1997">Economy</a>
+                    <li class="leaf"><a
+                                href="https://www.commondreams.org/economy"
+                                title="News and editorials related to the economy published by Common Dreams, an independent media outlet based in Portland Maine since 1997">Economy</a>
                     </li>
-                    <li class="leaf"><a href="https://www.commondreams.org/climate"
-                                        title="News and editorials related to the climate, climate change, and global warming published by Common Dreams, an independent media outlet based in Portland Maine since 1997">Climate</a>
+                    <li class="leaf"><a
+                                href="https://www.commondreams.org/climate"
+                                title="News and editorials related to the climate, climate change, and global warming published by Common Dreams, an independent media outlet based in Portland Maine since 1997">Climate</a>
                     </li>
-                    <li class="leaf"><a href="https://www.commondreams.org/rights"
-                                        title="News and editorials related to the human and civil rights published by Common Dreams, an independent media outlet based in Portland Maine since 1997">Rights</a>
+                    <li class="leaf"><a
+                                href="https://www.commondreams.org/rights"
+                                title="News and editorials related to the human and civil rights published by Common Dreams, an independent media outlet based in Portland Maine since 1997">Rights</a>
                     </li>
-                    <li class="leaf"><a href="https://www.commondreams.org/solutions"
-                                        title="Solutions to issues facing U.S. citizens and humanity within news and editorials published by Common Dreams, an independent media outlet based in Portland Maine since 1997">Solutions</a>
+                    <li class="leaf"><a
+                                href="https://www.commondreams.org/solutions"
+                                title="Solutions to issues facing U.S. citizens and humanity within news and editorials published by Common Dreams, an independent media outlet based in Portland Maine since 1997">Solutions</a>
                     </li>
                     <li class="leaf"><a href="https://www.commondreams.org/us"
                                         title="News and editorials related to issues within the United States published by Common Dreams, an independent media outlet based in Portland Maine since 1997">U.S.</a>
                     </li>
-                    <li class="last leaf"><a href="https://www.commondreams.org/canada"
-                                             title="News and editorials related to issues within the Canada published by Common Dreams, an independent media outlet based in Portland Maine since 1997">Canada</a>
+                    <li class="last leaf"><a
+                                href="https://www.commondreams.org/canada"
+                                title="News and editorials related to issues within the Canada published by Common Dreams, an independent media outlet based in Portland Maine since 1997">Canada</a>
                     </li>
                 </ul>
             </nav>
@@ -287,7 +292,7 @@ function scrape_html($file) {
             <a id="main-content"></a>
             <h1>Common Dreams Archive</h1>
             <script>
-              (function() {
+              (function () {
                 var cx = '016732745245266549351:wkpp-trbuh0';
                 var gcse = document.createElement('script');
                 gcse.type = 'text/javascript';
@@ -307,7 +312,7 @@ function scrape_html($file) {
 
                     <ul class="listings">
 
-                      <?php for ($i = $page_offset; $i < $page_offset + 100; $i++) : ?>
+                      <?php for ($i = $page_offset; $i < $page_offset + $items_per_page; $i++) : ?>
                         <?php $data = scrape_html($files[$i]); ?>
                         <?php if ($data['page_title']) : ?>
                               <li>
@@ -324,7 +329,7 @@ function scrape_html($file) {
 
                     <div class="pager">
                         <ul>
-                          <?php if ($current_page > 0) : ?>
+                          <?php if ($current_page > 1) : ?>
                               <li>
                                   <a href="<?php $_SERVER['REQUEST_URI']; ?>?page=<?php print $current_page - 1; ?>"><
                                       Previous</a></li>
@@ -333,8 +338,7 @@ function scrape_html($file) {
                                 of <?php print $pages; ?></li>
                           <?php if ($current_page < $count) : ?>
                               <li>
-                                  <a href="<?php $_SERVER['REQUEST_URI']; ?>?page=<?php print $current_page + 1; ?>">Next
-                                      ></a></li>
+                                  <a href="<?php $_SERVER['REQUEST_URI']; ?>?page=<?php print $current_page + 1; ?>">Next ></a></li>
                           <?php endif; ?>
                         </ul>
                     </div>
@@ -364,17 +368,26 @@ function scrape_html($file) {
                                 </p>
 
                                 <ul>
-                                    <li><a href="https://www.commondreams.org/about-us">About Common
+                                    <li>
+                                        <a href="https://www.commondreams.org/about-us">About
+                                            Common
                                             Dreams</a></li>
-                                    <li><a href="https://www.commondreams.org/key-staff">Key Staff</a></li>
-                                    <li><a href="https://www.commondreams.org/writers-guidelines">Writers'
+                                    <li>
+                                        <a href="https://www.commondreams.org/key-staff">Key
+                                            Staff</a></li>
+                                    <li>
+                                        <a href="https://www.commondreams.org/writers-guidelines">Writers'
                                             Guidelines</a></li>
-                                    <li><a href="https://www.commondreams.org/commons-community-guidelines">The
+                                    <li>
+                                        <a href="https://www.commondreams.org/commons-community-guidelines">The
                                             Commons - Community Guidelines</a>
                                     </li>
-                                    <li><a href="https://www.commondreams.org/privacy-policy">Privacy
+                                    <li>
+                                        <a href="https://www.commondreams.org/privacy-policy">Privacy
                                             Policy</a></li>
-                                    <li><a href="https://www.commondreams.org/jobs">Jobs</a></li>
+                                    <li>
+                                        <a href="https://www.commondreams.org/jobs">Jobs</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -456,7 +469,8 @@ function scrape_html($file) {
                             <td style="padding-right: 20px;">
                                 <div itemscope=""
                                      itemtype="http://schema.org/Organization">
-                                    <a itemprop="url" href="https://www.commondreams.org"><img
+                                    <a itemprop="url"
+                                       href="https://www.commondreams.org"><img
                                                 itemprop="logo"
                                                 src="https://www.commondreams.org/sites/default/files/cd_stacked_white_600.png"
                                                 alt="Common Dreams News and Views Published in Maine Since 1997"
