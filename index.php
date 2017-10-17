@@ -228,10 +228,10 @@ function scrape_html($file) {
                      class="block block--menu block--menu-menu-top-buttons">
                     <ul class="menu">
                         <li class="first leaf"><a
-                                    href="http://action.commondreams.org/signup_page/subscribe"
+                                    href="https://www.commondreams.org/email-subscription"
                                     title="">EMAIL SUBSCRIPTION</a></li>
                         <li class="last leaf"><a
-                                    href="https://secure.actblue.com/donate/support-independent-media?refcode=header"
+                                    href="https://secure.actblue.com/donate/support-independent-media?refcode=archive"
                                     title="">DONATE</a></li>
                     </ul>
                 </nav>
@@ -250,7 +250,7 @@ function scrape_html($file) {
                  class="block block--system block--menu block--system-main-menu">
                 <ul class="menu">
                     <li class="first leaf"><a
-                                href="https:///wwww.commondreams.org">Home</a>
+                                href="https:///www.commondreams.org">Home</a>
                     </li>
                     <li class="leaf"><a
                                 href="https://www.commondreams.org/world"
@@ -290,7 +290,7 @@ function scrape_html($file) {
     <div class="l-main">
         <div class="l-content" role="main">
             <a id="main-content"></a>
-            <h1>Common Dreams Archive</h1>
+            <h1>Common Dreams Archive</h1><h2>Use Search Box Below</h2><p><hr></p>
             <script>
               (function () {
                 var cx = '016732745245266549351:wkpp-trbuh0';
@@ -305,6 +305,7 @@ function scrape_html($file) {
             <div id="google-search">
                 <gcse:search></gcse:search>
             </div>
+            <p><hr></p>
 
             <article role="article"
                      class="node node--page node--full node--page--full">
@@ -426,7 +427,7 @@ function scrape_html($file) {
                                 <h2 class="pane-title"><span>Common Dreams brings you the news that matters.</span>
                                 </h2>
                                 <p>
-                                    <a href="https://secure.actblue.com/donate/support-independent-media?refcode=footer"
+                                    <a href="https://secure.actblue.com/donate/support-independent-media?refcode=archive"
                                        target="_blank" class="button">SUPPORT
                                         Common Dreams</a></p>
                             </div>
@@ -434,7 +435,7 @@ function scrape_html($file) {
                                 <h2 class="pane-title"><span>Sign up for Newsletter</span>
                                 </h2>
                                 <p><a class="button"
-                                      href="http://action.commondreams.org/signup_page/subscribe">Click
+                                      href="https://www.commondreams.org/email-subscription">Click
                                         to Sign Up</a></p></div>
                             <div class="panel-pane pane-block pane-block-7">
                                 <h2 class="pane-title">
