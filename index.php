@@ -60,31 +60,19 @@ function scrape_html($file) {
 <!--<![endif]-->
 <head>
     <meta charset="utf-8"/>
-    <meta name="MobileOptimized" content="width"/>
     <meta http-equiv="cleartype" content="on"/>
-    <link rel="profile" href="http://www.w3.org/1999/xhtml/vocab"/>
+    <link rel="shortcut icon" href="https://www.commondreams.org/sites/all/themes/omega_dreams/favicon.ico"
+          type="image/vnd.microsoft.icon"/>
+    <meta name="MobileOptimized" content="width"/>
     <link rel="apple-touch-icon-precomposed"
           href="https://www.commondreams.org/sites/all/themes/omega_dreams/images/apple-touch/favicon-150x150.png"
           sizes="150x150"/>
     <link rel="apple-touch-icon-precomposed"
+          href="https://www.commondreams.org/sites/all/themes/omega_dreams/images/apple-touch/favicon.png"/>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"/>
+    <link rel="apple-touch-icon-precomposed"
           href="https://www.commondreams.org/sites/all/themes/omega_dreams/images/apple-touch/favicon-120x120.png"
           sizes="120x120"/>
-    <link rel="shortcut icon"
-          href="https://www.commondreams.org/sites/all/themes/omega_dreams/favicon.ico"
-          type="image/vnd.microsoft.icon"/>
-    <link rel="apple-touch-icon-precomposed"
-          href="https://www.commondreams.org/sites/all/themes/omega_dreams/images/apple-touch/favicon.png"/>
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
-          rel="stylesheet"/>
-    <link rel="apple-touch-icon-precomposed"
-          href="https://www.commondreams.org/sites/all/themes/omega_dreams/images/apple-touch/favicon-76x76.png"
-          sizes="76x76"/>
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"/>
-    <meta name="description"
-          content="Common Dreams, publishing since 1997, archived content not yet brought into our current website"/>
-    <link rel="canonical" href="https://archive.commondreams.org"/>
-    <link rel="shortlink" href="https://archive.commondreams.org"/>
 
     <meta property="og:site_name" content="Common Dreams"/>
     <meta property="og:type" content="website"/>
@@ -103,34 +91,47 @@ function scrape_html($file) {
 
     <title>Common Dreams Archived Articles Since 1997 | Common Dreams</title>
 
-    <style>
-        @import url("https://www.commondreams.org/sites/all/themes/omega/omega/css/modules/system/system.base.css?ovid13");
-        @import url("https://www.commondreams.org/sites/all/themes/omega/omega/css/modules/system/system.menus.theme.css?ovid13");
-        @import url("https://www.commondreams.org/sites/all/themes/omega/omega/css/modules/system/system.messages.theme.css?ovid13");
-        @import url("https://www.commondreams.org/sites/all/themes/omega/omega/css/modules/system/system.theme.css?ovid13");
-        @import url("https://www.commondreams.org/modules/node/node.css?ovid13");
-        @import url("https://www.commondreams.org/sites/all/themes/omega/omega/css/modules/field/field.theme.css?ovid13");
-        @import url("https://www.commondreams.org/sites/all/themes/omega/omega/css/modules/search/search.theme.css?ovid13");
-        @import url("https://www.commondreams.org/sites/all/themes/omega/omega/css/modules/user/user.base.css?ovid13");
-        @import url("https://www.commondreams.org/sites/all/themes/omega/omega/css/modules/user/user.theme.css?ovid13");
-    </style>
-    <style>
-        @import url("https://www.commondreams.org/sites/all/themes/omega_dreams/css/omega-dreams.normalize.css?ovid13");
-        @import url("https://www.commondreams.org/sites/all/themes/omega_dreams/css/omega-dreams.hacks.css?ovid13");
-        @import url("https://www.commondreams.org/sites/all/themes/omega_dreams/css/omega-dreams.styles.css?ovid13");
-    </style>
+    <link itemprop="url" rel="canonical" href="https://www.commondreams.org/"/>
+    <meta property="og:image"
+          content="https://www.commondreams.org/sites/default/files/cd_stacked_white_facebook_commondreams.org_.png">
+    <link type="text/css" rel="stylesheet" href="css/css_IK1p9DItyBxVvrPmvjrodstL8Zdt1hussVotRQYgWZ8.css" media="all"/>
+    <link type="text/css" rel="stylesheet" href="css/css_zQ0gcJympZDPBlsc4r3oUU0oYTiOC76-FNTBUESjgKw.css" media="all"/>
+    <link type="text/css" rel="stylesheet" href="css/css_CXpF3yiPFnPY2ep5yZdtMEiF4suMqIrK0flnJt0tUxI.css" media="all"/>
 
     <!--[if lte IE 8]>
-    <style>
-        @import url("https://www.commondreams.org/sites/all/themes/omega_dreams/css/omega-dreams.no-query.css?ovid13");
-    </style>
+    <link type="text/css" rel="stylesheet" href="css/css_wpJzFglesB33x_2-2FkObj7L7ABV__2H8VCDbmSfD5Q.css" media="all"/>
     <![endif]-->
-    <style>
-        @import url("https://www.commondreams.org/sites/all/themes/omega_dreams/css/layouts/cdreams/cdreams.layout.css?ovid13");
-    </style>
+    <link type="text/css" rel="stylesheet" href="css/css_f5MRPfWVasRfNy-x_DzIo2PKKF-5lh9Oq_rxffu_uQQ.css" media="all"/>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write("<script src='/sites/all/modules/jquery_update/replace/jquery/1.7/jquery.min.js'>\x3C/script>")</script>
+    <script>window.jQuery || document.write("<script src='js/jquery.min.js'>\x3C/script>")</script>
+    <script src="js/js_ALflW1qsV-wPL6o1rSDEQRU4nUcXy95j4wWybir5MUc.js"></script>
+    <script src="js/js_CaLfg8G471nyYwgmuC2-ievdAnqE9J_KCTCKN6ZoyE4.js"></script>
+    <script src="js/js_GdW4c3QuRKuLgT0IcbsFzRiRiPPjmBoj882j85OMt3w.js"></script>
+
+    <!--[if (gte IE 6)&(lte IE 8)]>
+    <script src="js/js_l1iEl-hY65c79QTBBcl2tmNsnQFuMrbhOOFZUO_dkyw.js"></script>
+    <![endif]-->
+    <script src="js/js_wr8JU6enzif-F_GrRxDR0oXwgeWJIACGSnhr9_ts8Mg.js"></script>
+    <script src="js/js_fGg58nX_VeAqSnQqbTQ3_fwB7va_clld_ZWXm5msa9Q.js"></script>
     <script src="//platform.twitter.com/widgets.js"></script>
+    <script src="js/js_qkszW65KIuWugDOAjTYzg6Hu6YH7bQgXZp45zDjLjHY.js"></script>
+    <script>jQuery.extend(Drupal.settings, {
+        "basePath": "\/",
+        "pathPrefix": "",
+        "image_caption": {"selector": ".node--full .node__content img, img.caption, .field--type-image.caption img"},
+        "googleanalytics": {
+          "trackOutbound": 1,
+          "trackMailto": 1,
+          "trackDownload": 1,
+          "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip",
+          "trackDomainMode": "1"
+        },
+        "ctas": {
+          "slide_down_from_top": {"delta": "47"},
+          "modal_popup": {"delta": "cta_modal_winter_2017", "after_page_views": "3"}
+        },
+        "urlIsAjaxTrusted": {"\/": true}
+      });</script>
 
     <style>
         .l-main {
@@ -209,84 +210,163 @@ function scrape_html($file) {
     </script>
     <!-- END Global Site Tag (gtag.js) - Google Analytics -->
 </head>
-<body class="html not-front not-logged-in page-node page-node- page-node-107342 node-type-page section-search404">
-<a href="#main-content" class="element-invisible element-focusable">Skip to main
-    content</a>
-<div class="l-page has-no-sidebars">
-    <div id="header-container">
-        <header class="l-header" role="banner">
-            <div class="l-branding">
-                <a href="https://www.commondreams.org"
-                   title="Common Dreams Website" rel="home"
-                   class="site-logo"><img
-                            src="https://www.commondreams.org/sites/default/files/cd_tagline_logo_blue.png"
-                            alt="Home"/></a>
-            </div>
+<body class="html front not-logged-in page-home">
+<a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
 
-            <div class="l-region l-region--header">
-                <nav id="block-menu-menu-top-buttons" role="navigation"
-                     class="block block--menu block--menu-menu-top-buttons">
-                    <ul class="menu">
-                        <li class="first leaf"><a
-                                    href="http://action.commondreams.org/signup_page/subscribe"
-                                    title="">EMAIL SUBSCRIPTION</a></li>
-                        <li class="last leaf"><a
-                                    href="https://secure.actblue.com/donate/support-independent-media?refcode=header"
-                                    title="">DONATE</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-    </div>
-
-    <div id="navigation-container">
+<div id="navigation" class="slide-menu">
+    <!--    <div id="close-slide-menu-button"><a href="#"><i class="fa fa-window-close-o"></i></a></div>-->
+    <div class="slide-menu-container">
         <div class="l-region l-region--navigation">
-            <div id="block-block-2" class="block block--block block--block-2">
+            <div id="block-block-63" class="block block--block block--block-63">
                 <div class="block__content">
-                    <p style="text-align: center;"><?php print date('l, F j, Y'); ?></p>
+                    <ul class="menu">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/email-subscription">Subscribe</a></li>
+                        <li><a href="https://secure.actblue.com/donate/support-independent-media?refcode=menu"
+                               target="blank">Donate</a></li>
+                    </ul>
                 </div>
             </div>
             <nav id="block-system-main-menu" role="navigation"
                  class="block block--system block--menu block--system-main-menu">
+
                 <ul class="menu">
-                    <li class="first leaf"><a
-                                href="https:///wwww.commondreams.org">Home</a>
+                    <li class="first leaf"><a href="/world"
+                                              title="International news and editorials published by Common Dreams, an independent media outlet based in Portland Maine since 1997">World</a>
                     </li>
-                    <li class="leaf"><a
-                                href="https://www.commondreams.org/world"
-                                title="International news and editorials published by Common Dreams, an independent media outlet based in Portland Maine since 1997">World</a>
-                    </li>
-                    <li class="leaf"><a
-                                href="https://www.commondreams.org/war-peace"
-                                title="War &amp;amp; Peace news and editorials published by Common Dreams, an independent media outlet based in Portland Maine since 1997">War
+                    <li class="leaf"><a href="/war-peace"
+                                        title="War &amp;amp; Peace news and editorials published by Common Dreams, an independent media outlet based in Portland Maine since 1997">War
                             &amp; Peace</a></li>
-                    <li class="leaf"><a
-                                href="https://www.commondreams.org/economy"
-                                title="News and editorials related to the economy published by Common Dreams, an independent media outlet based in Portland Maine since 1997">Economy</a>
+                    <li class="leaf"><a href="/economy"
+                                        title="News and editorials related to the economy published by Common Dreams, an independent media outlet based in Portland Maine since 1997">Economy</a>
                     </li>
-                    <li class="leaf"><a
-                                href="https://www.commondreams.org/climate"
-                                title="News and editorials related to the climate, climate change, and global warming published by Common Dreams, an independent media outlet based in Portland Maine since 1997">Climate</a>
+                    <li class="leaf"><a href="/climate"
+                                        title="News and editorials related to the climate, climate change, and global warming published by Common Dreams, an independent media outlet based in Portland Maine since 1997">Climate</a>
                     </li>
-                    <li class="leaf"><a
-                                href="https://www.commondreams.org/rights"
-                                title="News and editorials related to the human and civil rights published by Common Dreams, an independent media outlet based in Portland Maine since 1997">Rights</a>
+                    <li class="leaf"><a href="/rights"
+                                        title="News and editorials related to the human and civil rights published by Common Dreams, an independent media outlet based in Portland Maine since 1997">Rights</a>
                     </li>
-                    <li class="leaf"><a
-                                href="https://www.commondreams.org/solutions"
-                                title="Solutions to issues facing U.S. citizens and humanity within news and editorials published by Common Dreams, an independent media outlet based in Portland Maine since 1997">Solutions</a>
+                    <li class="leaf"><a href="/solutions"
+                                        title="Solutions to issues facing U.S. citizens and humanity within news and editorials published by Common Dreams, an independent media outlet based in Portland Maine since 1997">Solutions</a>
                     </li>
-                    <li class="leaf"><a href="https://www.commondreams.org/us"
+                    <li class="leaf"><a href="/us"
                                         title="News and editorials related to issues within the United States published by Common Dreams, an independent media outlet based in Portland Maine since 1997">U.S.</a>
                     </li>
-                    <li class="last leaf"><a
-                                href="https://www.commondreams.org/canada"
-                                title="News and editorials related to issues within the Canada published by Common Dreams, an independent media outlet based in Portland Maine since 1997">Canada</a>
+                    <li class="last leaf"><a href="/canada"
+                                             title="News and editorials related to issues within the Canada published by Common Dreams, an independent media outlet based in Portland Maine since 1997">Canada</a>
                     </li>
                 </ul>
             </nav>
+            <div id="block-block-64" class="block block--block block--block-64">
+                <div class="block__content">
+                    <ul class="menu">
+                        <li><a href="https://www.facebook.com/commondreams.org" target="blank"><img
+                                        src="https://www.commondreams.org/sites/default/files/facebook-white-300.png"
+                                        alt="Common Dreams on Facebook" width="30" height="40" style="vertical-align: middle;"/></a><a
+                                    href="https://www.twitter.com/commondreams" target="blank"><img
+                                        src="https://www.commondreams.org/sites/default/files/twitter-white-transparent-lg.png"
+                                        alt="Common Dreams on Twitter" width="40" height="40"
+                                        style="vertical-align: middle; margin-right: 8px; margin-left: 8px;"/></a><a
+                                    href="/rss.xml"><img
+                                        src="https://www.commondreams.org/sites/default/files/rss-white-lg.png"
+                                        alt="Common Dreams RSS feed" width="40" height="40"
+                                        style="vertical-align: middle;"/></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="block-block-65" class="block block--block block--block-65">
+                <div class="block__content">
+                    <ul class="menu">
+                        <li><a href="/about-us">Common Dreams, a non-profit newscenter, was founded in 1997</a></li>
+                        <li><a href="/testimonials">Testimonials</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
+</div>
+
+<div class="l-page has-no-sidebars">
+    <div id="header-container">
+        <div id="header-top">
+            <div class="l-header">
+                <div class="col header-left">
+                    <div id="mobile-menu-wrapper">
+                        <a id="slide-menu-button" href="#">
+                            <span class="slide-menu-lines"></span>
+                            <span class="label">Sections</span>
+                        </a>
+                    </div>
+
+                    <div id="search-icon">
+                        <a id="search-toggle" href="#"><i class="fa fa-search"></i> </a>
+                    </div>
+                </div>
+
+                <div class="col header-middle">
+                    <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+                        <meta itemprop="name" content="Common Dreams">
+                        <meta itemprop="url"
+                              content="https://www.commondreams.org/sites/default/files/cd_stacked_white_600.png">
+                        <a href="/" title="Home" rel="home" class="site-logo">
+                            <meta itemprop="foundingdate" content="1997"/>
+                            <span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+                  <img src="images/cd_stacked_blue.jpg" alt="Home"/>
+                  <meta itemprop="url"
+                        content="https://www.commondreams.org/sites/default/files/cd_stacked_white_600.png">
+                  <meta itemprop="width" content="600">
+                  <meta itemprop="height" content="60">
+                </span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col header-right">
+                    <a class="button button--secondary" href="/email-subscription">SUBSCRIBE</a>
+                    <a class="button button--primary"
+                       href="https://secure.actblue.com/donate/support-independent-media?refcode=header"
+                       target="_blank">DONATE</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="header-content">
+            <div class="l-region l-region--header">
+                <div id="block-search-form" role="search" class="block block--search block--search-form">
+                    <div class="block__content">
+                        <form class="search-block-form" action="/" method="post" id="search-block-form"
+                              accept-charset="UTF-8">
+                            <div>
+                                <div class="container-inline">
+                                    <h2 class="element-invisible">Search form</h2>
+                                    <div class="form-item form-type-textfield form-item-search-block-form">
+                                        <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+                                        <input title="Enter the terms you wish to search for." type="text"
+                                               id="edit-search-block-form--2" name="search_block_form" value=""
+                                               size="15" maxlength="128" class="form-text"/>
+                                    </div>
+                                    <div class="form-actions form-wrapper" id="edit-actions">
+                                        <button type="submit" id="edit-submit" name="op"
+                                                value="&lt;i class=&quot;fa fa-search&quot;&gt;&lt;/i&gt;"
+                                                class="form-button"><i class="fa fa-search"></i></button>
+                                    </div>
+                                    <input type="hidden" name="form_build_id"
+                                           value="form-9zZlCYoBLck8p2JwlU-nVT1Hz55NmQfv88uVCyBKoOw"/>
+                                    <input type="hidden" name="form_id" value="search_block_form"/>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--    <div id="navigation-container">-->
+        <!--      --><!--    </div>-->
+    </div>
+
+
     <div class="l-main">
         <div class="l-content" role="main">
             <a id="main-content"></a>
