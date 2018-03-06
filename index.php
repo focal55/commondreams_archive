@@ -69,7 +69,7 @@ function scrape_html($file) {
           sizes="150x150"/>
     <link rel="apple-touch-icon-precomposed"
           href="https://www.commondreams.org/sites/all/themes/omega_dreams/images/apple-touch/favicon.png"/>
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"/>
+    <link href="https://www.commondreams.org//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"/>
     <link rel="apple-touch-icon-precomposed"
           href="https://www.commondreams.org/sites/all/themes/omega_dreams/images/apple-touch/favicon-120x120.png"
           sizes="120x120"/>
@@ -220,8 +220,8 @@ function scrape_html($file) {
             <div id="block-block-63" class="block block--block block--block-63">
                 <div class="block__content">
                     <ul class="menu">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/email-subscription">Subscribe</a></li>
+                        <li><a href="https://www.commondreams.org/">Home</a></li>
+                        <li><a href="https://www.commondreams.org/email-subscription">Subscribe</a></li>
                         <li><a href="https://secure.actblue.com/donate/support-independent-media?refcode=menu"
                                target="blank">Donate</a></li>
                     </ul>
@@ -231,28 +231,28 @@ function scrape_html($file) {
                  class="block block--system block--menu block--system-main-menu">
 
                 <ul class="menu">
-                    <li class="first leaf"><a href="/world"
+                    <li class="first leaf"><a href="https://www.commondreams.org/world"
                                               title="International news and editorials published by Common Dreams, an independent media outlet based in Portland Maine since 1997">World</a>
                     </li>
-                    <li class="leaf"><a href="/war-peace"
+                    <li class="leaf"><a href="https://www.commondreams.org/war-peace"
                                         title="War &amp;amp; Peace news and editorials published by Common Dreams, an independent media outlet based in Portland Maine since 1997">War
                             &amp; Peace</a></li>
-                    <li class="leaf"><a href="/economy"
+                    <li class="leaf"><a href="https://www.commondreams.org/economy"
                                         title="News and editorials related to the economy published by Common Dreams, an independent media outlet based in Portland Maine since 1997">Economy</a>
                     </li>
-                    <li class="leaf"><a href="/climate"
+                    <li class="leaf"><a href="https://www.commondreams.org/climate"
                                         title="News and editorials related to the climate, climate change, and global warming published by Common Dreams, an independent media outlet based in Portland Maine since 1997">Climate</a>
                     </li>
-                    <li class="leaf"><a href="/rights"
+                    <li class="leaf"><a href="https://www.commondreams.org/rights"
                                         title="News and editorials related to the human and civil rights published by Common Dreams, an independent media outlet based in Portland Maine since 1997">Rights</a>
                     </li>
-                    <li class="leaf"><a href="/solutions"
+                    <li class="leaf"><a href="https://www.commondreams.org/solutions"
                                         title="Solutions to issues facing U.S. citizens and humanity within news and editorials published by Common Dreams, an independent media outlet based in Portland Maine since 1997">Solutions</a>
                     </li>
-                    <li class="leaf"><a href="/us"
+                    <li class="leaf"><a href="https://www.commondreams.org/us"
                                         title="News and editorials related to issues within the United States published by Common Dreams, an independent media outlet based in Portland Maine since 1997">U.S.</a>
                     </li>
-                    <li class="last leaf"><a href="/canada"
+                    <li class="last leaf"><a href="https://www.commondreams.org/canada"
                                              title="News and editorials related to issues within the Canada published by Common Dreams, an independent media outlet based in Portland Maine since 1997">Canada</a>
                     </li>
                 </ul>
@@ -267,7 +267,7 @@ function scrape_html($file) {
                                         src="https://www.commondreams.org/sites/default/files/twitter-white-transparent-lg.png"
                                         alt="Common Dreams on Twitter" width="40" height="40"
                                         style="vertical-align: middle; margin-right: 8px; margin-left: 8px;"/></a><a
-                                    href="/rss.xml"><img
+                                    href="https://www.commondreams.org/rss.xml"><img
                                         src="https://www.commondreams.org/sites/default/files/rss-white-lg.png"
                                         alt="Common Dreams RSS feed" width="40" height="40"
                                         style="vertical-align: middle;"/></a></li>
@@ -277,8 +277,8 @@ function scrape_html($file) {
             <div id="block-block-65" class="block block--block block--block-65">
                 <div class="block__content">
                     <ul class="menu">
-                        <li><a href="/about-us">Common Dreams, a non-profit newscenter, was founded in 1997</a></li>
-                        <li><a href="/testimonials">Testimonials</a></li>
+                        <li><a href="https://www.commondreams.org/about-us">Common Dreams, a non-profit newscenter, was founded in 1997</a></li>
+                        <li><a href="https://www.commondreams.org/testimonials">Testimonials</a></li>
                     </ul>
                 </div>
             </div>
@@ -308,7 +308,7 @@ function scrape_html($file) {
                         <meta itemprop="name" content="Common Dreams">
                         <meta itemprop="url"
                               content="https://www.commondreams.org/sites/default/files/cd_stacked_white_600.png">
-                        <a href="/" title="Home" rel="home" class="site-logo">
+                        <a href="https://www.commondreams.org/" title="Home" rel="home" class="site-logo">
                             <meta itemprop="foundingdate" content="1997"/>
                             <span itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
                   <img src="images/cd_stacked_blue.jpg" alt="Home"/>
@@ -322,7 +322,7 @@ function scrape_html($file) {
                 </div>
 
                 <div class="col header-right">
-                    <a class="button button--secondary" href="/email-subscription">SUBSCRIBE</a>
+                    <a class="button button--secondary" href="https://www.commondreams.org/email-subscription">SUBSCRIBE</a>
                     <a class="button button--primary"
                        href="https://secure.actblue.com/donate/support-independent-media?refcode=header"
                        target="_blank">DONATE</a>
@@ -529,7 +529,7 @@ function scrape_html($file) {
                                                 target="_blank"
                                                 href="http://www.twitter.com/commondreams"><em
                                                     class="fa fa-twitter-square"></em></a><a
-                                                target="_blank" href="/rss.xml"><em
+                                                target="_blank" href="https://www.commondreams.org/rss.xml"><em
                                                     class="fa fa-rss-square"></em></a><a
                                                 itemprop="sameAs"
                                                 target="_blank"
